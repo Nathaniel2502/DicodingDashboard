@@ -10,6 +10,6 @@ This project is analysing E commerce dataset. The main question for this problem
 
 ### Installing the Streamlit Dashboard
 
-How to install your Streamlit app:
-`cd dashboard`
+How to install your Streamlit app:  
+`cd dashboard`  
 `streamlit run dashboard.py`
