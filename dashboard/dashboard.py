@@ -4,7 +4,7 @@ import streamlit as st
 
 
 #Load dataset
-df_all_data = pd.read_csv('complete_data.csv')
+df_all_data = pd.read_csv('/complete_data.csv')
 df_all_data['order_approved_at'] = pd.to_datetime(df_all_data['order_approved_at'], errors='coerce')
 
 #Visualization function
