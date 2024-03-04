@@ -4,7 +4,8 @@ import streamlit as st
 
 
 #Load dataset
-df_all_data = pd.read_csv('../dashboard/complete_data.csv')
+url = "https://github.com/Nathaniel2502/DicodingDashboard/blob/main/dashboard/complete_data.csv"
+df_all_data = pd.read_csv(url)
 df_all_data['order_approved_at'] = pd.to_datetime(df_all_data['order_approved_at'], errors='coerce')
 
 #Visualization function
