@@ -9,7 +9,12 @@ This project is analysing E commerce dataset. The main question for this problem
 
 
 ### Installing the Streamlit Dashboard
-
+Clone this repository to your local machine:  
+`git clone https://github.com/Nathaniel2502/DicodingDashboard.git`  
+Go to the project directory  
+`cd DicodingDashboard`   
+Install the required Python packages by running:  
+`pip install -r requirements.txt`  
 How to install your Streamlit app:  
 `cd dashboard`  
 `streamlit run dashboard.py`
