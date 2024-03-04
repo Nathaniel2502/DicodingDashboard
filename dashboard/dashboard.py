@@ -1,11 +1,11 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
 import streamlit as st
 
 
 #Load dataset
-df_all_data = pd.read_csv('complete_data.csv')
+url = "https://raw.githubusercontent.com/Nathaniel2502/DicodingDashboard/main/dashboard/complete_data.csv"
+df_all_data = pd.read_csv(url)
 df_all_data['order_approved_at'] = pd.to_datetime(df_all_data['order_approved_at'], errors='coerce')
 
 #Visualization function
